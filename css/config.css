@@ -1,0 +1,26 @@
+.post {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 3px solid #000000;
+    background-color: #cdb9b9;
+  }
+  
+  .post-title {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  .post-body {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .post {
+      padding: 5px;
+    }
+  }
+  
