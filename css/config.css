@@ -1,26 +1,53 @@
 .post {
-    margin-bottom: 20px;
-    padding: 10px;
-    border: 3px solid #000000;
-    background-color: #cdb9b9;
-  }
-  
-  .post-title {
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #333;
-  }
-  
-  .post-body {
-    text-align: center;
-    margin-bottom: 10px;
-    color: #555;
-  }
-  
-  @media (max-width: 768px) {
-    .post {
-      padding: 5px;
-    }
-  }
-  
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 3px solid #000000;
+  background-color: #96b0e9;
+}
+
+.post-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.post-body {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.profile {
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+.profile-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.profile-email {
+  margin-bottom: 10px;
+  color: #555;
+}
+.Secciones{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.image-container {
+  width: 200px; /* Ajusta el ancho deseado */
+  height: 200px; /* Ajusta la altura deseada */
+  border-radius: 50%; /* Hace que el borde sea redondo al 50% */
+  overflow: hidden; /* Oculta cualquier contenido adicional que exceda el borde */
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+}
+
